@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/dist/app.js"
+status = 200

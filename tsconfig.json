@@ -1,5 +1,7 @@
 {
     "compilerOptions": {
+        
+        /*
         "target": "es6",
         "module": "commonjs",
         "outDir": "dist",
@@ -7,7 +9,7 @@
         "esModuleInterop": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true
-        /*
+        */
         "target": "es5",
         "lib": ["dom", "dom.iterable", "esnext"],
         "allowJs": true,
@@ -23,8 +25,8 @@
         "isolatedModules": true,
         "noEmit": true,
         "jsx": "react-jsx",
-        "outDir": "./build"
-        */
+        //"outDir": "./build"
+        "outDir": "dist"
     }
     //"include": ["src"]
 }
