@@ -1,7 +1,7 @@
 import * as dotenv from "dotenv";
 import express from "express";
 import * as bodyParser from "body-parser";
-import {orderRouter} from "./routes/orderRouter";
+// import {orderRouter} from "./routes/orderRouter";
 import {userRouter} from "./routes/userRouter";
 
 const app = express();

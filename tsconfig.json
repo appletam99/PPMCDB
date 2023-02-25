@@ -27,6 +27,6 @@
         "jsx": "react-jsx",
         //"outDir": "./build"
         "outDir": "dist"
-    }
+    },
     //"include": ["src"]
 }

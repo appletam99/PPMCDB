@@ -8,7 +8,7 @@ userRouter.get("/", async (req: Request, res: Response) => {
     if (err) {
       return res.status(500).json({"errorMessage": err.message});
     }
-
+    console.log(users);
     res.status(200).json({"data": users});
   });
 });

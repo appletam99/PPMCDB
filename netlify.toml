@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/dist/app.js"
+to = "/app.ts"
 status = 200
